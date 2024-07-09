@@ -4,13 +4,12 @@
   "description": "Automatic Read Me maker",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^10.0.1"
+    "inquirer": "^8.2.4"
   }
 }

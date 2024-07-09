@@ -1,8 +1,9 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require("fs");
+const { BADSTR } = require("dns");
 
 // Function to generate README content
-const generateREADME = (answers) => {
+var generateREADME = (answers) => {
     return `
 # ${answers.title}
 
@@ -11,10 +12,11 @@ ${answers.description}
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [How To Use](#howtouse)
+- [Links] (#links)
+- [Screenshots] (#screenshots)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Credits](#credits)
 - [Questions](#questions)
 
 ## Installation
@@ -22,22 +24,25 @@ ${answers.description}
 ${answers.installation}
 \`\`\`
 
-## Usage
-${answers.usage}
+## How To Use
+${answers.howtouse}
+
+## Links
+\`\`\`
+${answers.links}
+\`\`\`
+
+## Screenshots
+${answers.screenshots}
 
 ## License
 This project is licensed under the ${answers.license} license.
 
-## Contributing
-${answers.contributing}
-
-## Tests
-\`\`\`
-${answers.tests}
-\`\`\`
+## Credits
+${answers.credits}
 
 ## Questions
-If you have any questions, please open an issue or contact me directly at ${answers.email}. You can find more of my work at ${answers.github}.
+If you have any questions, please open an issue on the project reop or you can contact me at ${answers.email}. You can find more of my projects at ${answers.github}.
     `;
 };
 
@@ -60,18 +65,29 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'howtouse',
         message: 'Provide the usage information:'
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'Provide the contribution guidelines:'
+        name: 'links',
+        message: 'Provide links to the website:'
     },
     {
         type: 'input',
-        name: 'tests',
-        message: 'Provide the test instructions:'
+        name: 'screenshots',
+        message: 'Provide direct links to screenshots:'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for the project:',
+        choices: ['MIT', 'GPLv3', 'Apache 2.0', 'BSD 3-Clause', 'None']
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Enter credited people/sources for the project:'
     },
     {
         type: 'input',
@@ -82,13 +98,8 @@ inquirer.prompt([
         type: 'input',
         name: 'github',
         message: 'Enter your GitHub username:'
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Choose a license for your project:',
-        choices: ['MIT', 'GPLv3', 'Apache 2.0', 'BSD 3-Clause', 'None']
-    }
+    },    
+        
 ]).then((answers) => {
     // Generate README content
     const readmeContent = generateREADME(answers);
