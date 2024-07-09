@@ -27,8 +27,15 @@ link to the github repository https://github.com/ConnorLuks/ReadMeMakerChallenge
 ```
 
 ## Screenshots
+Image of picking the license out of the listed options.
 ![alt text](images/1c9pickingthelicense.png)
+
+Image of the final output.
 ![alt text](images/1c9finishedreadmeoutput.png)
+
+Video instructions on how to use the Read Me Generator.
+<video controls src="readmemaker.mp4" title="Title"></video>
+
 
 ## License
 This project is licensed under the MIT license.
@@ -37,5 +44,5 @@ This project is licensed under the MIT license.
 Connor O'Halloran
 
 ## Questions
-If you have any questions, please open an issue on the project reop or you can contact me at jconnor036@fiu.edu. You can find more of my projects at github.com/ConnorLuks.
+If you have any questions, please open an issue on the project repo or you can contact me at jconnor036@fiu.edu. You can find more of my projects at github.comConnorLuks.
     
