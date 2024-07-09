@@ -31,7 +31,7 @@ Image of the final output.
 ![alt text](images/1c9finishedreadmeoutput.png)
 
 Video instructions on how to use the Read Me Generator.
-<video controls src="readmefilegeneratorguide.mp4" title="Title"></video>
+https://1drv.ms/v/c/0d7c60f6f050fa73/EbtAm8EYKGNHiygb0Jn6bh0BNrMh-Q6zdK4Jbf-Zky447w?e=3vMKgE
 
 
 ## License
