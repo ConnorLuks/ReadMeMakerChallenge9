@@ -41,5 +41,5 @@ This project is licensed under the MIT license.
 Connor O'Halloran
 
 ## Questions
-If you have any questions, please open an issue on the project repo or you can contact me at jconnor036@fiu.edu. You can find more of my projects at github.comConnorLuks.
+If you have any questions, please open an issue on the project repo or you can contact me at jconnor036@fiu.edu. You can find more of my projects at github.com/ConnorLuks.
     
