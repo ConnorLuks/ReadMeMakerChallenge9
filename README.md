@@ -14,7 +14,8 @@ A preset layout for creating a README file, using simple Node.js
 - [Questions](#questions)
 
 ## Installation
-No Installation needed, just follow the Usage Information below.
+Requires 'npm inquirer' 
+otherwise No Installation needed, just follow the Usage Information below.
 
 ## How To Use
 Being Node by entering 'node index.js' in the terminal, then follow the listed questions with relevant answers.
@@ -30,7 +31,7 @@ Image of the final output.
 ![alt text](images/1c9finishedreadmeoutput.png)
 
 Video instructions on how to use the Read Me Generator.
-<video controls src="images/readmefilegeneratorguide.mp4" title="Title"></video>
+<video controls src="readmefilegeneratorguide.mp4" title="Title"></video>
 
 
 ## License
