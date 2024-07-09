@@ -15,7 +15,7 @@ A preset layout for creating a README file, using simple Node.js
 
 ## Installation
 ```
-No installation need, just follow the Usage Information below.
+No Installation needed, just follow the Usage Information below.
 ```
 
 ## How To Use
@@ -23,12 +23,11 @@ Being Node by entering 'node index.js' in the terminal, then follow the listed q
 
 ## Links
 ```
-link to github repositoryhttps://github.com/ConnorLuks/ReadMeMakerChallenge9  
+link to the github repository https://github.com/ConnorLuks/ReadMeMakerChallenge9
 ```
 
 ## Screenshots
 ![alt text](images/1c9pickingthelicense.png)
-
 ![alt text](images/1c9finishedreadmeoutput.png)
 
 ## License
@@ -38,5 +37,5 @@ This project is licensed under the MIT license.
 Connor O'Halloran
 
 ## Questions
-If you have any questions, please open an issue on the project reop or you can contact me at jconnor036@fiu.edu. You can find more of my projects at ConnorLuks.
+If you have any questions, please open an issue on the project reop or you can contact me at jconnor036@fiu.edu. You can find more of my projects at github.com/ConnorLuks.
     

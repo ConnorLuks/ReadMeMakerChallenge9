@@ -33,7 +33,7 @@ ${answers.links}
 \`\`\`
 
 ## Screenshots
-${answers.screenshots}
+![alt text](${answers.screenshots})
 
 ## License
 This project is licensed under the ${answers.license} license.
@@ -97,7 +97,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub username:'
+        message: 'Enter your GitHub Profile link:'
     },    
         
 ]).then((answers) => {
