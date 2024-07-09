@@ -7,8 +7,8 @@ A preset layout for creating a README file, using simple Node.js, reworked to fi
 ## Table of Contents 
 - [Installation](#installation)
 - [How To Use](#howtouse)
-- [Links] (#links)
-- [Screenshots] (#screenshots)
+- [Links](#links)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Credits](#credits)
 - [Questions](#questions)
