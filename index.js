@@ -1,8 +1,8 @@
+// Declares the dependencies and the variables for the generator.
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { BADSTR } = require("dns");
 
-// Function to generate README content
+// Functions to generate README content, 
 var generateREADME = (answers) => {
     return `
 # ${answers.title}
@@ -10,7 +10,7 @@ var generateREADME = (answers) => {
 ## Description
 ${answers.description}
 
-## Table of Contents
+## Table of Contents 
 - [Installation](#installation)
 - [How To Use](#howtouse)
 - [Links] (#links)
@@ -46,7 +46,7 @@ If you have any questions, please open an issue on the project reop or you can c
     `;
 };
 
-// Prompt the user for input
+// Prompts the user with questions, to then answer to fill out the ReadMe.
 inquirer.prompt([
     {
         type: 'input',
@@ -101,10 +101,10 @@ inquirer.prompt([
     },    
         
 ]).then((answers) => {
-    // Generate README content
+    // Generates the ReadMe content onto the actual ReadMe file.
     const readmeContent = generateREADME(answers);
 
-    // Write README file
+    // Writes to the ReadMe file
     fs.writeFile('README.md', readmeContent, (err) => {
         if (err) throw err;
         console.log('README.md has been generated!');
