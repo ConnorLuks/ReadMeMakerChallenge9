@@ -14,17 +14,13 @@ A preset layout for creating a README file, using simple Node.js, reworked to fi
 - [Questions](#questions)
 
 ## Installation
-```
 Requires 'npm inquirer' install by opening terminal and entering 'npm install inquirer' Then proceed to the How To Use section below.
-```
 
 ## How To Use
 Begin Node by entering 'node index.js' in the terminal, then follow the listed questions and provide relevant answers.
 
 ## Links
-```
 link to the github repository https://github.com/ConnorLuks/ReadMeMakerChallenge9
-```
 
 ## Screenshots
 Image of picking the license out of the listed options.
